@@ -103,3 +103,25 @@ tree.root = new Node(20)
 tree.root.right = new Node(32)
 tree.root.left = new Node(15)
 tree.root.left.right = new Node(17)
+
+
+/*
+Full binary tree
+complete binary tree
+almost complete binary tree
+
+/*
+A full binary tree is also known as 2-tree in which every node other than the leaf nodes has two child nodes. It means all the leaf nodes should be at the same level and all other internal nodes should contain two child nodes each.
+*/
+
+/*
+    It follows the definition of a binary tree with some additional conditions. In a complete binary tree, all the levels of a tree are filled entirely except the last level. In the last level, nodes might or might not be filled fully. Also, let’s note that all the nodes should be filled from the left.
+    */
+
+
+
+/*
+    An almost complete binary tree is a special kind of binary tree where insertion takes place level by level and from left to right order at each level and the last level is not filled fully always. It also contains 2^{L} nodes at each level except the last level.
+
+The main point here is that if we want to insert any node at the lowest level of the tree, it should be inserted from the left. All the internal nodes should be completely filled.
+    */
